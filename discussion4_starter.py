@@ -32,7 +32,11 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-    def 
+    def verify_input(self, bool):
+        if self.width % 2 == 0: 
+            return bool 
+        if self.height %2 == 0: 
+            return bool  
 
 
 
