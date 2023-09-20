@@ -47,6 +47,14 @@ class Rectangle():
 
     # YOUR CODE HERE
 
+    def area():
+        if input is valid: 
+            return self.height * self.width 
+        
+
+
+
+
 
 
     # Create the "perimeter" method
