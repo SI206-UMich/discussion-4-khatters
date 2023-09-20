@@ -47,9 +47,11 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-    def area():
+    def area(self):
         if input is valid: 
             return self.height * self.width 
+        else: 
+            return "Invalid Input"
         
 
 
@@ -63,6 +65,12 @@ class Rectangle():
     # Otherwise, it returns the perimeter of the rectangle.
 
     # YOUR CODE HERE
+
+    def perimeter(self):
+        if input is valid: 
+            return (self.height)*2 + (self.width)*2
+        else: 
+            return "Invalid Input"
     
 
 
