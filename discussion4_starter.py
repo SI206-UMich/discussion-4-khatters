@@ -7,7 +7,9 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-
+    def __init__(self, width, height):
+        self.width = width
+        self. height = height 
 
     # Create the "__str__" method
     #
@@ -15,6 +17,10 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
+
+    def __str__(self):
+        return str("A rectangle with width " + (self.width) + " and height " +(self.height))
+    
 
 
 
@@ -25,6 +31,8 @@ class Rectangle():
     #       False otherwise
 
     # YOUR CODE HERE
+
+    def 
 
 
 
